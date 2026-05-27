@@ -107,7 +107,8 @@ extern "C"
     // Start an online match. modoIdx: 0=Clasico 1=Lunar 2=Artico. playerId: 1 or 2.
     EMSCRIPTEN_KEEPALIVE void iniciarModoRed(int modoIdx, int playerId)
     {
-        if (g_game) g_game->cargarModoRed(modoIdx, playerId);
+        if (!g_game) return;
+        g_game->cargarModoRed(modoIdx, playerId);
         g_estado = EstadoJuego::JUGANDO;
     }
 
@@ -143,7 +144,9 @@ int main()
     InitWindow(ANCHO_PANTALLA, ALTO_PANTALLA, "Head Soccer");
     InitAudioDevice();
     SetTargetFPS(60);
+#ifndef __EMSCRIPTEN__
     ChangeDirectory(GetApplicationDirectory());
+#endif
 
     g_game     = new GameManager();
     g_menu     = new MenuPrincipal();
