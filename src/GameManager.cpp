@@ -160,6 +160,8 @@ void GameManager::buclePrincipal()
             }
         }
 
+        if (juegoTerminado) return;
+
         if (ptrJugador1) ptrJugador1->update(dt);
         if (ptrJugador2) ptrJugador2->update(dt);
         if (ptrPelota)   ptrPelota->update(dt);
@@ -292,6 +294,9 @@ void GameManager::buclePrincipal()
 
 void GameManager::cargarModoRed(int modoIdx, int playerId)
 {
+    if (ptrJugador1) ptrJugador1->setEsRemoto(false);
+    if (ptrJugador2) ptrJugador2->setEsRemoto(false);
+
     playerIdLocal   = playerId;
     ganador         = 0;
     juegoTerminado  = false;

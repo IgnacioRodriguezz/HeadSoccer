@@ -38,6 +38,7 @@ inline const ConfigModo& getModoConfig(int idx)
             900.0f, 500.0f, 750.0f, 700.0f, 1.0f, 0.75f, 350.0f
         }
     };
+    if (idx < 0 || idx > 2) idx = 0;  // clamp to valid range
     return modos[idx];
 }
 
