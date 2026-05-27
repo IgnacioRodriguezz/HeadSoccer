@@ -1,0 +1,38 @@
+# Makefile.web — Emscripten build for HeadSoccer
+# Requirement: emsdk installed and activated (source emsdk_env.sh)
+# Usage: emmake make -f Makefile.web
+
+CXX = em++
+
+# Adjust these paths according to your emsdk and raylib installation
+RAYLIB_LIB ?= $(HOME)/raylib/src/libraylib.a
+RAYLIB_INC ?= $(HOME)/raylib/src
+
+SRC = src/main.cpp src/Arco.cpp src/AssetManager.cpp src/Cancha.cpp \
+      src/Fisica.cpp src/GameManager.cpp src/Jugador.cpp              \
+      src/MenuConfiguracion.cpp src/MenuPrincipal.cpp src/Pelota.cpp  \
+      src/SelectorModos.cpp
+
+INCLUDES = -Iinclude -I$(RAYLIB_INC)
+CXXFLAGS = -Os -std=c++17
+
+EXPORTED_FN = '["_main","_iniciarModoRed","_inyectarInputRival","_getScoreP1","_getScoreP2","_getGanador"]'
+
+LDFLAGS = \
+	-s USE_WEBGL2=1                      \
+	-s ASYNCIFY=1                        \
+	-s ALLOW_MEMORY_GROWTH=1             \
+	-s INITIAL_MEMORY=67108864           \
+	-s EXPORTED_FUNCTIONS=$(EXPORTED_FN) \
+	-s EXPORTED_RUNTIME_METHODS='["ccall","cwrap"]' \
+	--preload-file assets                \
+	--shell-file web/shell.html
+
+OUTPUT = web/headsoccer
+
+all:
+	$(CXX) $(SRC) $(INCLUDES) $(CXXFLAGS) $(RAYLIB_LIB) $(LDFLAGS) -o $(OUTPUT).html
+	@echo "Build OK -> $(OUTPUT).html"
+
+clean:
+	rm -f web/headsoccer.html web/headsoccer.js web/headsoccer.wasm web/headsoccer.data
