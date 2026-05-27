@@ -5,10 +5,10 @@
 #include <vector>
 
 struct InputsRed {
-    bool izquierda = false;
-    bool derecha   = false;
-    bool salto     = false;  // one-frame pulse — reset after reading
-    bool patear    = false;
+    bool izquierda = false;  // held — must be set every frame
+    bool derecha   = false;  // held — must be set every frame
+    bool salto     = false;  // pulse — reset after one frame (like IsKeyPressed)
+    bool patear    = false;  // held — must be set every frame
 };
 
 class Jugador
