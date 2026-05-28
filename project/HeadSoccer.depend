@@ -1,0 +1,672 @@
+# depslib dependency file v1.0
+1762285081 source:c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\src\arco.cpp
+	"Arco.h"
+
+1762284387 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\arco.h
+	"raylib.h"
+	"Pelota.h"
+	"Constantes.h"
+
+1761939106 c:\raylib\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
+1762284387 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\pelota.h
+	"Entidad.h"
+	"Constantes.h"
+
+1762284387 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\entidad.h
+	"raylib.h"
+
+1762286519 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\constantes.h
+	"raylib.h"
+
+1762284387 source:c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\src\cancha.cpp
+	"Cancha.h"
+
+1762284387 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\cancha.h
+	"raylib.h"
+	"Arco.h"
+	"Constantes.h"
+
+1762284387 source:c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\src\entidad.cpp
+	"Entidad.h"
+
+1762286892 source:c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\src\gamemanager.cpp
+	"GameManager.h"
+
+1762286650 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\gamemanager.h
+	"raylib.h"
+	<stdexcept>
+	"Constantes.h"
+	"Entidad.h"
+	"Jugador.h"
+	"Pelota.h"
+	"Cancha.h"
+	"Arco.h"
+	"HUD.h"
+	"SoundManager.h"
+	"AssetManager.h"
+	"Fisica.h"
+	"StateManager.h"
+
+1762284387 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\jugador.h
+	"Entidad.h"
+	"Constantes.h"
+	<vector>
+
+1762286639 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\hud.h
+	"raylib.h"
+	"Constantes.h"
+
+1762284387 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\soundmanager.h
+	"raylib.h"
+
+1762285082 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\assetmanager.h
+	"raylib.h"
+	<stdexcept>
+
+1762284387 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\fisica.h
+	"Pelota.h"
+	"Jugador.h"
+	"Cancha.h"
+	"Constantes.h"
+	"raymath.h"
+
+1761939106 c:\raylib\include\raymath.h
+	<math.h>
+
+1762284387 c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\include\statemanager.h
+
+1762284387 source:c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\src\jugador.cpp
+	"Jugador.h"
+	"raylib.h"
+
+1762284859 source:c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\src\main.cpp
+	<iostream>
+	"raylib.h"
+	"GameManager.h"
+	"Constantes.h"
+
+1762285178 source:c:\users\nacho\downloads\headsoccer_reestructurado\headsoccer\src\pelota.cpp
+	"Pelota.h"
+	"raylib.h"
+	<cmath>
+
+1762285081 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\src\arco.cpp
+	"Arco.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\arco.h
+	"raylib.h"
+	"Pelota.h"
+	"Constantes.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\pelota.h
+	"Entidad.h"
+	"Constantes.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\entidad.h
+	"raylib.h"
+
+1762286519 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\constantes.h
+	"raylib.h"
+
+1762284387 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\src\cancha.cpp
+	"Cancha.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\cancha.h
+	"raylib.h"
+	"Arco.h"
+	"Constantes.h"
+
+1762284387 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\src\entidad.cpp
+	"Entidad.h"
+
+1762286892 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\src\gamemanager.cpp
+	"GameManager.h"
+
+1762286650 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\gamemanager.h
+	"raylib.h"
+	<stdexcept>
+	"Constantes.h"
+	"Entidad.h"
+	"Jugador.h"
+	"Pelota.h"
+	"Cancha.h"
+	"Arco.h"
+	"HUD.h"
+	"SoundManager.h"
+	"AssetManager.h"
+	"Fisica.h"
+	"StateManager.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\jugador.h
+	"Entidad.h"
+	"Constantes.h"
+	<vector>
+
+1762286639 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\hud.h
+	"raylib.h"
+	"Constantes.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\soundmanager.h
+	"raylib.h"
+
+1762285082 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\assetmanager.h
+	"raylib.h"
+	<stdexcept>
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\fisica.h
+	"Pelota.h"
+	"Jugador.h"
+	"Cancha.h"
+	"Constantes.h"
+	"raymath.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\include\statemanager.h
+
+1762284387 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\src\jugador.cpp
+	"Jugador.h"
+	"raylib.h"
+
+1762284859 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\src\main.cpp
+	<iostream>
+	"raylib.h"
+	"GameManager.h"
+	"Constantes.h"
+
+1762285178 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer04-11\src\pelota.cpp
+	"Pelota.h"
+	"raylib.h"
+	<cmath>
+
+1762832512 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\appestados.cpp
+	"raylib.h"
+	"Estados.h"
+	"MenuPrincipal.h"
+	"SelectorModos.h"
+	"MenuConfiguracion.h"
+	"GameManager.h"
+
+1765251445 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\gamemanager.h
+	"raylib.h"
+	<stdexcept>
+	"Constantes.h"
+	"Jugador.h"
+	"Pelota.h"
+	"Cancha.h"
+	"Arco.h"
+	"AssetManager.h"
+	"Fisica.h"
+	"Estados.h"
+	"SelectorModos.h"
+
+1765251794 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\constantes.h
+	"raylib.h"
+
+1765225778 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\entidad.h
+	"raylib.h"
+
+1765248581 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\jugador.h
+	"raylib.h"
+	<vector>
+
+1765226124 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\pelota.h
+	"raylib.h"
+
+1765225712 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\cancha.h
+	"raylib.h"
+	"Arco.h"
+	"Constantes.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\arco.h
+	"raylib.h"
+	"Pelota.h"
+	"Constantes.h"
+
+1762286639 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\hud.h
+	"raylib.h"
+	"Constantes.h"
+
+1762284387 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\soundmanager.h
+	"raylib.h"
+
+1765225701 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\assetmanager.h
+	"raylib.h"
+	<string>
+
+1765248551 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\fisica.h
+	"raylib.h"
+	"Pelota.h"
+	"Jugador.h"
+	"Cancha.h"
+
+1762831236 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\statemanager.h
+
+1765260029 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\arco.cpp
+	"Arco.h"
+
+1765225051 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\cancha.cpp
+	"Cancha.h"
+
+1762284387 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\entidad.cpp
+	"Entidad.h"
+
+1765248844 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\gamemanager.cpp
+	"GameManager.h"
+	"SelectorModos.h"
+	"Fisica.h"
+	"raymath.h"
+	<iostream>
+	"Constantes.h"
+
+1765248682 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\jugador.cpp
+	"Jugador.h"
+	"Constantes.h"
+	"Fisica.h"
+	"raymath.h"
+	<cmath>
+
+1765248800 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\main.cpp
+	<iostream>
+	"raylib.h"
+	"GameManager.h"
+	"Constantes.h"
+	"MenuPrincipal.h"
+	"SelectorModos.h"
+	"MenuConfiguracion.h"
+
+1765225505 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\menuconfiguracion.cpp
+	"MenuConfiguracion.h"
+	"raylib.h"
+
+1765230723 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\menuprincipal.cpp
+	"raylib.h"
+	"MenuPrincipal.h"
+	"Constantes.h"
+	<cmath>
+
+1765225575 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\pelota.cpp
+	"Pelota.h"
+	"Constantes.h"
+	"Fisica.h"
+	"raymath.h"
+	<cmath>
+
+1765249536 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\selectormodos.cpp
+	"SelectorModos.h"
+	"Constantes.h"
+	<iostream>
+
+1765226097 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\menuconfiguracion.h
+	"raylib.h"
+
+1765248950 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\selectormodos.h
+	"raylib.h"
+	<string>
+	<vector>
+
+1765226105 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\menuprincipal.h
+	"raylib.h"
+
+1765245303 c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\include\estados.h
+
+1765224635 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\assetmanager.cpp
+	"AssetManager.h"
+	"SelectorModos.h"
+	<iostream>
+
+1765248310 source:c:\users\nacho\onedrive\desktop\uces\progra_ii\0final ii\headsoccer10-11\src\fisica.cpp
+	"Fisica.h"
+	"Constantes.h"
+	"raymath.h"
+	<cmath>
+	<iostream>
+
+1765260029 source:c:\users\ramon\downloads\headsoccer\src\arco.cpp
+	"Arco.h"
+
+1762284387 c:\users\ramon\downloads\headsoccer\include\arco.h
+	"raylib.h"
+	"Pelota.h"
+	"Constantes.h"
+
+1731932645 ..\..\..\..\..\..\..\..\..\raylib\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
+1765226124 c:\users\ramon\downloads\headsoccer\include\pelota.h
+	"raylib.h"
+
+1765251794 c:\users\ramon\downloads\headsoccer\include\constantes.h
+	"raylib.h"
+
+1765224635 source:c:\users\ramon\downloads\headsoccer\src\assetmanager.cpp
+	"AssetManager.h"
+	"SelectorModos.h"
+	<iostream>
+
+1765225701 c:\users\ramon\downloads\headsoccer\include\assetmanager.h
+	"raylib.h"
+	<string>
+
+1765248950 c:\users\ramon\downloads\headsoccer\include\selectormodos.h
+	"raylib.h"
+	<string>
+	<vector>
+
+1765225051 source:c:\users\ramon\downloads\headsoccer\src\cancha.cpp
+	"Cancha.h"
+
+1765225712 c:\users\ramon\downloads\headsoccer\include\cancha.h
+	"raylib.h"
+	"Arco.h"
+	"Constantes.h"
+
+1765248310 source:c:\users\ramon\downloads\headsoccer\src\fisica.cpp
+	"Fisica.h"
+	"Constantes.h"
+	"raymath.h"
+	<cmath>
+	<iostream>
+
+1765248551 c:\users\ramon\downloads\headsoccer\include\fisica.h
+	"raylib.h"
+	"Pelota.h"
+	"Jugador.h"
+	"Cancha.h"
+
+1765248581 c:\users\ramon\downloads\headsoccer\include\jugador.h
+	"raylib.h"
+	<vector>
+
+1731932645 ..\..\..\..\..\..\..\..\..\raylib\include\raymath.h
+	<math.h>
+
+1765248844 source:c:\users\ramon\downloads\headsoccer\src\gamemanager.cpp
+	"GameManager.h"
+	"SelectorModos.h"
+	"Fisica.h"
+	"raymath.h"
+	<iostream>
+	"Constantes.h"
+
+1765251445 c:\users\ramon\downloads\headsoccer\include\gamemanager.h
+	"raylib.h"
+	<stdexcept>
+	"Constantes.h"
+	"Jugador.h"
+	"Pelota.h"
+	"Cancha.h"
+	"Arco.h"
+	"AssetManager.h"
+	"Fisica.h"
+	"Estados.h"
+	"SelectorModos.h"
+
+1765245303 c:\users\ramon\downloads\headsoccer\include\estados.h
+
+1765248682 source:c:\users\ramon\downloads\headsoccer\src\jugador.cpp
+	"Jugador.h"
+	"Constantes.h"
+	"Fisica.h"
+	"raymath.h"
+	<cmath>
+
+1765267141 source:c:\users\ramon\downloads\headsoccer\src\main.cpp
+	<iostream>
+	"raylib.h"
+	"GameManager.h"
+	"Constantes.h"
+	"MenuPrincipal.h"
+	"SelectorModos.h"
+	"MenuConfiguracion.h"
+
+1765226105 c:\users\ramon\downloads\headsoccer\include\menuprincipal.h
+	"raylib.h"
+
+1765226097 c:\users\ramon\downloads\headsoccer\include\menuconfiguracion.h
+	"raylib.h"
+
+1765225505 source:c:\users\ramon\downloads\headsoccer\src\menuconfiguracion.cpp
+	"MenuConfiguracion.h"
+	"raylib.h"
+
+1765230723 source:c:\users\ramon\downloads\headsoccer\src\menuprincipal.cpp
+	"raylib.h"
+	"MenuPrincipal.h"
+	"Constantes.h"
+	<cmath>
+
+1765225575 source:c:\users\ramon\downloads\headsoccer\src\pelota.cpp
+	"Pelota.h"
+	"Constantes.h"
+	"Fisica.h"
+	"raymath.h"
+	<cmath>
+
+1765249536 source:c:\users\ramon\downloads\headsoccer\src\selectormodos.cpp
+	"SelectorModos.h"
+	"Constantes.h"
+	<iostream>
+
+1765267131 source:c:\users\ramon\downloads\headsoccer\src\test.cpp
+	"tau/tau.h"
+	<iostream>
+	<string>
+	<cmath>
+	"raylib.h"
+	"Arco.h"
+	"Pelota.h"
+	"Fisica.h"
+	"Constantes.h"
+	"Cancha.h"
+	"Jugador.h"
+
+1755608188 c:\users\ramon\downloads\headsoccer\include\tau\tau.h
+	<tau/types.h>
+	<tau/misc.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<errno.h>
+	<libgen.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<signal.h>
+	<time.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<windows.h>
+	<io.h>
+	<valgrind.h>
+	<exception>
+	<limits.h>
+	<time.h>
+	<sys/syscall.h>
+	<unistd.h>
+	<time.h>
+	<mach/mach_time.h>
+
+1755608188 c:\users\ramon\downloads\headsoccer\include\tau\types.h
+	<tau/compilers.h>
+	<cstdint>
+	<stdint.h>
+
+1755608188 c:\users\ramon\downloads\headsoccer\include\tau\compilers.h
+
+1755608188 c:\users\ramon\downloads\headsoccer\include\tau\misc.h
+	<inttypes.h>
+
+1765260029 source:j:\projects\uces\headsoccer\src\arco.cpp
+	"Arco.h"
+
+1762284387 j:\projects\uces\headsoccer\include\arco.h
+	"raylib.h"
+	"Pelota.h"
+	"Constantes.h"
+
+1765226124 j:\projects\uces\headsoccer\include\pelota.h
+	"raylib.h"
+
+1765268295 j:\projects\uces\headsoccer\include\constantes.h
+	"raylib.h"
+
+1765224635 source:j:\projects\uces\headsoccer\src\assetmanager.cpp
+	"AssetManager.h"
+	"SelectorModos.h"
+	<iostream>
+
+1765225701 j:\projects\uces\headsoccer\include\assetmanager.h
+	"raylib.h"
+	<string>
+
+1765248950 j:\projects\uces\headsoccer\include\selectormodos.h
+	"raylib.h"
+	<string>
+	<vector>
+
+1765225051 source:j:\projects\uces\headsoccer\src\cancha.cpp
+	"Cancha.h"
+
+1765225712 j:\projects\uces\headsoccer\include\cancha.h
+	"raylib.h"
+	"Arco.h"
+	"Constantes.h"
+
+1765248310 source:j:\projects\uces\headsoccer\src\fisica.cpp
+	"Fisica.h"
+	"Constantes.h"
+	"raymath.h"
+	<cmath>
+	<iostream>
+
+1765248551 j:\projects\uces\headsoccer\include\fisica.h
+	"raylib.h"
+	"Pelota.h"
+	"Jugador.h"
+	"Cancha.h"
+
+1779922512 j:\projects\uces\headsoccer\include\jugador.h
+	"raylib.h"
+	<vector>
+
+1765248682 source:j:\projects\uces\headsoccer\src\jugador.cpp
+	"Jugador.h"
+	"Constantes.h"
+	"Fisica.h"
+	"raymath.h"
+	<cmath>
+
+1765225505 source:j:\projects\uces\headsoccer\src\menuconfiguracion.cpp
+	"MenuConfiguracion.h"
+	"raylib.h"
+
+1765226097 j:\projects\uces\headsoccer\include\menuconfiguracion.h
+	"raylib.h"
+
+1765230723 source:j:\projects\uces\headsoccer\src\menuprincipal.cpp
+	"raylib.h"
+	"MenuPrincipal.h"
+	"Constantes.h"
+	<cmath>
+
+1765226105 j:\projects\uces\headsoccer\include\menuprincipal.h
+	"raylib.h"
+
+1765225575 source:j:\projects\uces\headsoccer\src\pelota.cpp
+	"Pelota.h"
+	"Constantes.h"
+	"Fisica.h"
+	"raymath.h"
+	<cmath>
+
+1765249536 source:j:\projects\uces\headsoccer\src\selectormodos.cpp
+	"SelectorModos.h"
+	"Constantes.h"
+	<iostream>
+
+1765267131 source:j:\projects\uces\headsoccer\src\test.cpp
+	"tau/tau.h"
+	<iostream>
+	<string>
+	<cmath>
+	"raylib.h"
+	"Arco.h"
+	"Pelota.h"
+	"Fisica.h"
+	"Constantes.h"
+	"Cancha.h"
+	"Jugador.h"
+
+1755608188 j:\projects\uces\headsoccer\include\tau\tau.h
+	<tau/types.h>
+	<tau/misc.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<errno.h>
+	<libgen.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<signal.h>
+	<time.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<windows.h>
+	<io.h>
+	<valgrind.h>
+	<exception>
+	<limits.h>
+	<time.h>
+	<sys/syscall.h>
+	<unistd.h>
+	<time.h>
+	<mach/mach_time.h>
+
+1755608188 j:\projects\uces\headsoccer\include\tau\types.h
+	<tau/compilers.h>
+	<cstdint>
+	<stdint.h>
+
+1755608188 j:\projects\uces\headsoccer\include\tau\compilers.h
+
+1755608188 j:\projects\uces\headsoccer\include\tau\misc.h
+	<inttypes.h>
+
+1765268326 source:j:\projects\uces\headsoccer\src\gamemanager.cpp
+	"GameManager.h"
+	"SelectorModos.h"
+	"Fisica.h"
+	"raymath.h"
+	<iostream>
+	"Constantes.h"
+
+1765251445 j:\projects\uces\headsoccer\include\gamemanager.h
+	"raylib.h"
+	<stdexcept>
+	"Constantes.h"
+	"Jugador.h"
+	"Pelota.h"
+	"Cancha.h"
+	"Arco.h"
+	"AssetManager.h"
+	"Fisica.h"
+	"Estados.h"
+	"SelectorModos.h"
+
+1765245303 j:\projects\uces\headsoccer\include\estados.h
+
+1765268326 source:j:\projects\uces\headsoccer\src\main.cpp
+	<iostream>
+	"raylib.h"
+	"GameManager.h"
+	"Constantes.h"
+	"MenuPrincipal.h"
+	"SelectorModos.h"
+	"MenuConfiguracion.h"
+

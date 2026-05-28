@@ -1,11 +1,8 @@
 # Node
 server/node_modules/
 
-# Emscripten output (generated — do not commit)
-web/headsoccer.html
-web/headsoccer.js
-web/headsoccer.wasm
-web/headsoccer.data
+# Emscripten intermediate artifacts (generated)
+web/headsoccer.data.orig
 
 # Brainstorming sessions
 .superpowers/
