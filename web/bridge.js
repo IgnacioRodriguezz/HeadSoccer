@@ -6,7 +6,7 @@
 const Bridge = (() => {
   // Production URL: replace with actual Render URL once deployed.
   // For local dev, set window.HS_SERVER_URL = 'ws://localhost:3000' in shell.html before this loads.
-  const WS_URL = window.HS_SERVER_URL || 'wss://headsoccer-server.onrender.com';
+  const WS_URL = window.HS_SERVER_URL || 'wss://headsoccer-qepm.onrender.com';
 
   let ws         = null;
   let playerId   = null;   // 1 = host (P1), 2 = guest (P2)
