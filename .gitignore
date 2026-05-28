@@ -1,0 +1,17 @@
+# Node
+server/node_modules/
+
+# Emscripten output (generated — do not commit)
+web/headsoccer.html
+web/headsoccer.js
+web/headsoccer.wasm
+web/headsoccer.data
+
+# Brainstorming sessions
+.superpowers/
+
+# Build artifacts
+project/obj/
+project/bin/Debug/
+*.o
+*.a
