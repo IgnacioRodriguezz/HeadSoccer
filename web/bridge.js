@@ -104,6 +104,7 @@ const Bridge = (() => {
         break;
 
       case 'time_up':
+        if (!gameActive) break;   // already ended by _getGanador() path
         gameActive = false;
         Lobby.onGameOver(msg.p1Score, msg.p2Score, playerId);
         break;
