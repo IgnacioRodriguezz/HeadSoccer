@@ -5,6 +5,7 @@ const MODES = ['Clásico', 'Lunar', 'Ártico'];
 
 const Lobby = (() => {
   let selectedMode = 0;
+  let countdownIv  = null;
 
   const qs  = (id) => document.getElementById(id);
   const err = (id, msg) => { qs(id).textContent = msg; setTimeout(() => qs(id).textContent = '', 3000); };
@@ -29,7 +30,7 @@ const Lobby = (() => {
         <input class="code-input" id="join-input" placeholder="ROJO-1234" maxlength="10"/>
         <div class="error-msg" id="join-error"></div>
         <button class="btn btn-primary"   onclick="Lobby.onJoinRoom()">Conectar</button>
-        <button class="btn btn-secondary" onclick="show('home')">Volver</button>
+        <button class="btn btn-secondary" onclick="Lobby.showHome()">Volver</button>
       </div>
 
       <div class="lobby-screen" id="screen-waiting-host">
@@ -89,13 +90,14 @@ const Lobby = (() => {
   }
 
   function countdown(callback) {
+    if (countdownIv) { clearInterval(countdownIv); countdownIv = null; }
     show('countdown');
     let n = 3;
     qs('countdown-num').textContent = n;
-    const iv = setInterval(() => {
+    countdownIv = setInterval(() => {
       n--;
       if (n > 0) { qs('countdown-num').textContent = n; }
-      else       { clearInterval(iv); callback(); }
+      else       { clearInterval(countdownIv); countdownIv = null; callback(); }
     }, 1000);
   }
 
@@ -130,6 +132,7 @@ const Lobby = (() => {
     },
 
     onGameOver(p1, p2, playerIdLocal) {
+      p1 = Number(p1); p2 = Number(p2);
       qs('result-score').textContent = `${p1} — ${p2}`;
       let winner;
       if (p1 === p2) winner = '🤝 Empate';
