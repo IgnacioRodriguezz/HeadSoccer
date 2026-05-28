@@ -22,18 +22,25 @@ wss.on('connection', (ws) => {
   ws.on('message', (raw) => {
     let msg;
     try { msg = JSON.parse(raw); } catch { return; }
+    if (!msg || typeof msg !== 'object') return;
 
     switch (msg.type) {
 
       case 'create_room': {
-        const room = createRoom(ws);
-        send(ws, { type: 'room_created', code: room.code, playerId: 1 });
+        if (getRoomByPlayer(ws)) { send(ws, { type: 'error', message: 'Ya estás en una sala' }); break; }
+        try {
+          const room = createRoom(ws);
+          send(ws, { type: 'room_created', code: room.code, playerId: 1 });
+        } catch (e) {
+          send(ws, { type: 'error', message: 'No se pudo crear la sala' });
+        }
         break;
       }
 
       case 'join_room': {
         const code = String(msg.code || '').toUpperCase();
         if (!isValidCode(code)) { send(ws, { type: 'error', message: 'Código inválido' }); return; }
+        if (getRoomByPlayer(ws)) { send(ws, { type: 'error', message: 'Ya estás en una sala' }); return; }
         try {
           const room = joinRoom(code, ws);
           send(ws,              { type: 'room_joined',        playerId: 2 });
@@ -80,6 +87,7 @@ wss.on('connection', (ws) => {
       }
 
       case 'goal_scored': {
+        // Client-reported score: both clients can send this. Used only for time_up final score.
         const room = getRoomByPlayer(ws);
         if (!room || room.state !== 'playing') return;
         const scorer = Number(msg.scorer);

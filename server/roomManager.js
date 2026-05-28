@@ -19,8 +19,9 @@ function createRoom(ws1) {
 
 function joinRoom(code, ws2) {
   const room = _rooms[code];
-  if (!room)            throw new Error('Sala no encontrada');
-  if (room.players[2])  throw new Error('Sala llena');
+  if (!room)                  throw new Error('Sala no encontrada');
+  if (room.players[1] === ws2) throw new Error('No puedes unirte a tu propia sala');
+  if (room.players[2])        throw new Error('Sala llena');
   room.players[2] = ws2;
   room.state      = 'ready';
   return room;
